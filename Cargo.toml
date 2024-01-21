@@ -1,0 +1,9 @@
+[package]
+name = "poem-embed"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+poem = { version = "2.0.0", features = ["embed"] }
+tokio = { version = "1.35.1", features = ["rt-multi-thread", "macros"] }
+rust-embed = { version = "8.2.0" }
